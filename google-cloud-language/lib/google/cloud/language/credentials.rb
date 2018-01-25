@@ -23,7 +23,7 @@ module Google
         ].freeze
         PATH_ENV_VARS = %w(LANGUAGE_KEYFILE GOOGLE_CLOUD_KEYFILE GCLOUD_KEYFILE)
         JSON_ENV_VARS = %w(LANGUAGE_KEYFILE_JSON GOOGLE_CLOUD_KEYFILE_JSON GCLOUD_KEYFILE_JSON)
-        DEFAULT_PATHS = ["~/.config/gcloud/application_default_credentials.json"]
+        DEFAULT_PATHS = ["#{Dir.pwd}/google_nl_service/config/gcloud/application_default_credentials.json"]
       end
     end
   end
